@@ -1,0 +1,23 @@
+{
+  "name": "typeahead_isomorphic",
+  "version": "1.0.0",
+  "description": "A dinky React.js typeahead isomorphic example",
+  "main": "app.js",
+  "scripts": {
+    "start": "npm run build & node app.js",
+    "build": "browserify -t reactify ./client.js -o public/bundle.js"
+  },
+  "author": "Tim Tyrrell",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^6.3.2",
+    "express-handlebars": "^1.1.0",
+    "jquery": "^2.1.1",
+    "node-jsx": "^0.12.4",
+    "react": "^0.12.1",
+    "reactify": "^0.16.0"
+  },
+  "dependencies": {
+    "express": "^4.10.4"
+  }
+}
